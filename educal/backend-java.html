@@ -368,9 +368,9 @@ height: 116px;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.or
                               <li class="nav-item" role="presentation">
                                 <button class="nav-link " id="curriculum-tab" data-bs-toggle="tab" data-bs-target="#curriculum" type="button" role="tab" aria-controls="curriculum" aria-selected="false"> <i class="icon_book_alt"></i> <span>Curriculum</span> </button>
                               </li>
-                              <li class="nav-item" role="presentation">
+                              <!-- <li class="nav-item" role="presentation">
                                 <button class="nav-link" id="review-tab" data-bs-toggle="tab" data-bs-target="#review" type="button" role="tab" aria-controls="review" aria-selected="false"> <i class="icon_star_alt"></i> <span>Reviews</span> </button>
-                              </li>
+                              </li> -->
                               <!-- <li class="nav-item" role="presentation">
                                 <button class="nav-link" id="member-tab" data-bs-toggle="tab" data-bs-target="#member" type="button" role="tab" aria-controls="member" aria-selected="false"> <i class="fal fa-user"></i> <span>Members</span> </button>
                               </li> -->
@@ -490,14 +490,718 @@ height: 116px;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.or
                               
                               <div class="tab-pane fade" id="curriculum" style="margin-bottom: 5rem;" role="tabpanel" aria-labelledby="curriculum-tab">
                                  <div class="course__curriculum">
-                                    <div class="shadow p-3 mb-5 bg-body rounded">
+                                    <!-- <div class="shadow p-3 mb-5 bg-body rounded">
                                        <a class="btn btn-primary" href="https://drive.google.com/file/d/16WWzbKgo3D7WuxdStWUppADbV4ufYU5F/view?usp=sharing" download>
                                           <i class="fa fa-download" aria-hidden="true"></i> Download Java Syllabus
                                      </a>
+                                    </div> -->
+                                    <div class="accordion" id="course__accordion">
+                                       <div class="accordion-item mb-50">
+                                         <h2 class="accordion-header" id="week-01">
+                                           <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#week-01-content" aria-expanded="true" aria-controls="week-01-content">
+                                             Java + JSP + Restful WS + Spring Syllabus
+                                           </button>
+                                         </h2>
+                                         <div id="week-01-content" class="accordion-collapse collapse show" aria-labelledby="week-01" data-bs-parent="#course__accordion">
+                                           <div class="accordion-body">
+                                             
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span> Greetings and introduction</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span> Java Setting up</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span> Decision Making Under Java</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span>Java Flow Control</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span>Java Methods</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span>Java OOPs Concepts</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span>Java Core Concepts</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span>Java Array</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span>Java Collections Framework</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span>Java Generics</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span>Java Multithreading Concurrency Control In Java</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span> Lambda Expressions - Basics</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span>File Handling Under Java</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span>Debugging </h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span>GIT</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span>JSP And Servlets Introduction</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span>JSP And Servlets Forms</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span>JSP And Servlets: Understanding Java Beans</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span>JSP And Servlets Session Management</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span>JSP And Servlets JSTL Core Tags</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span>JSP And Servlets JSTL Function Tags</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span>JSP And Servlets: JSTL XML Tags</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span>JSP And Servlets: Formatting Tags</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span>JSP And Servlets: Building Custom Tags</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span>JSP And Servlets: Integrate Web Template</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span>JSP And Servlets: Revisiting Servlets</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span>JSP And Servlets: Interacting With Database</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                            
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span>JSP And Servlets: Listing Data On Webpage </h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span>Add Records Into Database</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span>Update Records Into Database</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span>Delete Records From Database</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span>Adding JSTL Support</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span>Image/File Upload</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span>HiberNate Introduction</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span>Hibernate Query Language Basics</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span>JSP & Servlets Integration Of Hibernate</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span>Spring 5: Getting Started</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span>Spring 5: Inversion Of Control Dependency Injection</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span>Spring 5: Autowire</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span>Spring 5: Spring Bean</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span>Spring 5:Spring MVC</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span>Spring From Elements</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span>Spring Form Validations</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span>Spring Database Connectivity Using JDBC</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span>Spring: Exception Handling Under Spring MVC</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span>Restful API Webservices</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span>Restful API Setting - Up</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span>Database Connectivity Hibernate</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span>Understanding JAX-RS</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg viewBox="0 0 24 24">
+                                                      <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                      <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                      </svg>
+                                                   <h3> <span>Live Lecture: </span>Restful API Under The Hood</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                                </div> -->
+                                             </div>
+                                             <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                                <div class="course__curriculum-info">
+                                                   <svg class="document" viewBox="0 0 24 24">
+                                                      <path class="st0" d="M14,2H6C4.9,2,4,2.9,4,4v16c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2V8L14,2z"/>
+                                                      <polyline class="st0" points="14,2 14,8 20,8 "/>
+                                                      <line class="st0" x1="16" y1="13" x2="8" y2="13"/>
+                                                      <line class="st0" x1="16" y1="17" x2="8" y2="17"/>
+                                                      <polyline class="st0" points="10,9 9,9 8,9 "/>
+                                                   </svg>
+                                                   <h3> <span>Reading: </span> Projects Overview</h3>
+                                                </div>
+                                                <!-- <div class="course__curriculum-meta">
+                                                   <span class="time"> <i class="icon_clock_alt"></i> 22 minutes</span>
+                                                </div> -->
+                                             </div>
+                                           </div>
+                                         </div>
+                                       </div>
                                     </div>
-
                                     <!-- Week 3 -->
-                                   
+                                    <div class="accordion" id="course__accordion-2">
+                                    <div class="accordion-item mb-50">
+                                      <h2 class="accordion-header" id="week-02">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#projects-syllabus" aria-expanded="true" aria-controls="projects-syllabus">
+                                          Java Spring Projects Syllabus
+                                        </button>
+                                      </h2>
+                                      <div id="projects-syllabus" class="accordion-collapse  collapse show" aria-labelledby="week-02" data-bs-parent="#projects-syllabus">
+                                        <div class="accordion-body">
+                                          <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                             <div class="course__curriculum-info">
+                                                <svg viewBox="0 0 24 24">
+                                                   <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                   <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                   </svg>
+                                                <h3> <span>Live Lecture: </span> ERP System Your First Project</h3>
+                                             </div>
+                                             <!-- <div class="course__curriculum-meta">
+                                                <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                             </div> -->
+                                          </div>
+                                          <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                             <div class="course__curriculum-info">
+                                                <svg viewBox="0 0 24 24">
+                                                   <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                   <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                   </svg>
+                                                <h3> <span>Live Lecture: </span> Advanced E-Commerce App Using Spring Framework</h3>
+                                             </div>
+                                             <!-- <div class="course__curriculum-meta">
+                                                <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                             </div> -->
+                                          </div>
+                                          <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                             <div class="course__curriculum-info">
+                                                <svg viewBox="0 0 24 24">
+                                                   <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                   <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                   </svg>
+                                                <h3> <span>Live Lecture: </span> Advanced Marketing App Using Spring</h3>
+                                             </div>
+                                             <!-- <div class="course__curriculum-meta">
+                                                <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                             </div> -->
+                                          </div>
+                                          <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                             <div class="course__curriculum-info">
+                                                <svg viewBox="0 0 24 24">
+                                                   <polygon class="st0" points="23,7 16,12 23,17 "/>
+                                                   <path class="st0" d="M3,5h11c1.1,0,2,0.9,2,2v10c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7C1,5.9,1.9,5,3,5z"/>
+                                                   </svg>
+                                                <h3> <span>Live Lecture: </span> Online Learning App Using Spring</h3>
+                                             </div>
+                                             <!-- <div class="course__curriculum-meta">
+                                                <span class="time"> <i class="icon_clock_alt"></i> 15 minutes</span>
+                                             </div> -->
+                                          </div>
+                                          <div class="course__curriculum-content d-sm-flex justify-content-between align-items-center">
+                                             <div class="course__curriculum-info">
+                                                <svg class="document" viewBox="0 0 24 24">
+                                                   <path class="st0" d="M14,2H6C4.9,2,4,2.9,4,4v16c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2V8L14,2z"/>
+                                                   <polyline class="st0" points="14,2 14,8 20,8 "/>
+                                                   <line class="st0" x1="16" y1="13" x2="8" y2="13"/>
+                                                   <line class="st0" x1="16" y1="17" x2="8" y2="17"/>
+                                                   <polyline class="st0" points="10,9 9,9 8,9 "/>
+                                                </svg>
+                                                <h3> <span>Reading: </span> Project Testing Phase</h3>
+                                             </div>
+                                             <!-- <div class="course__curriculum-meta">
+                                                <span class="time"> <i class="icon_clock_alt"></i> 22 minutes</span>
+                                             </div> -->
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                 </div>
 
                                     <!-- Week 4 -->
 
@@ -509,7 +1213,7 @@ height: 116px;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.or
                               <div class="tab-pane fade" id="review" role="tabpanel" aria-labelledby="review-tab">
                                  <div class="course__review">
                                     <h3>Reviews</h3>
-                                    <p>Gosh william I'm telling crikey burke I don't want no agro A bit of how's your father bugger all mate off his nut that, what a plonker cuppa owt to do</p>
+                                    <!-- <p>Gosh william I'm telling crikey burke I don't want no agro A bit of how's your father bugger all mate off his nut that, what a plonker cuppa owt to do</p> -->
 
                                     <!-- <div class="course__review-rating mb-50">
                                        <div class="row g-0">
