@@ -10,6 +10,8 @@ $(document).ready(function() {
 	// Set up an event listener for the contact form.
 	$(form).submit(function(e) {
 		console.log("Form Submitted....")
+		$('#loading').removeClass('hide')
+		$('#loading').addClass('show')
 		// Stop the browser from submitting the form.
 		e.preventDefault();
 
@@ -29,12 +31,12 @@ $(document).ready(function() {
 			
 			$(formMessages).removeClass('error');
 			$(formMessages).addClass('success');
-
 			// Set the message text.
 			$(formMessages).text(response);
 
 			// Clear the form.
 			$('#contact-form input,#contact-form textarea').val('');
+			$('#loading').addClass('hide')
 			alert("Thank you for reaching us. Your query sent to our team. We will contact you within 1 hour.");
 		})
 		.fail(function(data) {

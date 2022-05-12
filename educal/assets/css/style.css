@@ -8731,3 +8731,27 @@ p.checkout-coupon input[type=text]:focus {
     line-height: 5px;
     letter-spacing: 0.4px;
 }
+
+#loading{
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  min-height: 100%;
+  z-index: 1001;
+  width: 100%;
+  opacity: .8;
+  background-color: black;
+}
+#loading span{
+  font-size: 25px;
+  font-weight: 700px;
+  color: white;
+}
+.show{
+  display: flex !important;
+}
+.hide{
+  display: none !important;
+}
